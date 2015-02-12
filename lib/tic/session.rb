@@ -1,6 +1,3 @@
-require './board'
-require './player'
-
 class Session
 
 	def initialize
@@ -105,4 +102,3 @@ class Session
 	end
 end
 
-game = Session.new

@@ -1,5 +1,5 @@
-require_relative "spec_helper"
-require "board"
+require "spec_helper"
+#require "board"
 
 describe Board do
   let(:board) { Board.new }

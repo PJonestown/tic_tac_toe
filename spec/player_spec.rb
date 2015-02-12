@@ -1,5 +1,5 @@
 require "spec_helper"
-require "player"
+#require "player"
 
 describe Player do
   let(:player) { Player.new('Paul', 'x') }
