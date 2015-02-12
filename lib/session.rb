@@ -18,7 +18,9 @@ class Session
 
 
 	def who_goes_first
-		rand < 0.5 ? @player_1.turn = true : @player_2.turn = false
+		#rand < 0.5 ? @player_1.turn = true : @player_2.turn = false
+		@player_1.turn = true if rand < 0.5
+
 		change_current_player
 	end
 
